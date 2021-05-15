@@ -4,6 +4,7 @@ import { MongooseModule } from '@nestjs/mongoose';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://localhost/registation_data'),RegistrationModule],
+    MongooseModule.forRoot('mongodb://localhost/registation_data'),
+    RegistrationModule],
 })
 export class AppModule {}
